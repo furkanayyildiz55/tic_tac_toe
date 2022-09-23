@@ -19,7 +19,10 @@ class MyApp extends StatelessWidget {
             AppBarTheme(centerTitle: true, titleTextStyle: GoogleFonts.bungee(fontSize: 27)),
         primarySwatch: Colors.blueGrey,
         brightness: Brightness.dark,
-        textTheme: GoogleFonts.bungeeTextTheme(TextTheme(bodyLarge: TextStyle(fontSize: 100))),
+        textTheme: GoogleFonts.bungeeTextTheme(TextTheme(
+            bodyLarge: TextStyle(fontSize: 100, color: Colors.white),
+            bodyMedium: TextStyle(fontSize: 75, color: Colors.white),
+            bodySmall: TextStyle(fontSize: 30, color: Colors.white))),
       ),
       home: const GameScreen(),
     );
