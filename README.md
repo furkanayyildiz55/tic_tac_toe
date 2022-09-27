@@ -1,6 +1,6 @@
 # Tic Tac Toe 
 
-### İki iki ile oynanan puan sistemine dayalı bir oyundur.
+### İki lişi ile oynanan puan sistemine dayalı bir oyundur.
 
 <p >
 <img src="https://github.com/furkanayyildiz55/tic_tac_toe/blob/master/image1.jpg" width="250">
